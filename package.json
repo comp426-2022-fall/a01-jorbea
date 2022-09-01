@@ -1,0 +1,31 @@
+{
+  "name": "bleep_bloop_webserver",
+  "version": "0.0.1",
+  "description": "Webserver for assignment a01-jorbea, COMP-426-001.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-jorbea.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "jorbea",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-jorbea/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-jorbea#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
